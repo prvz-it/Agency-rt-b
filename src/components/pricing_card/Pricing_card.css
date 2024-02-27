@@ -1,0 +1,156 @@
+#pricingCard {
+    margin: 120px 0px;
+}
+
+.pricingCardTop {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.pricingCardTop h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: #282938;
+}
+
+.pricingCardTop p {
+    margin-top: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* pricingCard_main */
+
+.pricingCard_box {
+    height: 620px;
+    padding: 54px 48px;
+    border-radius: 12px;
+    background: #F4F6FC;
+}
+
+.pricingCard_box:hover {
+    background: #1C1E53;
+}
+
+.pricingCard_boxTop {
+    margin-bottom: 30px;
+}
+
+.pricingCard_boxTop h2 {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #282938;
+}
+
+.pricingCard_box:hover .pricingCard_boxTop h2 {
+    color: #FFF;
+}
+
+.pricingCard_boxTop p {
+    display: inline-block;
+    margin-left: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2405F2;
+}
+
+.pricingCard_box:hover .pricingCard_boxTop p {
+    color: #FCD980;
+}
+
+.pricingCard_boxText {
+    margin-bottom: 60px;
+}
+
+.pricingCard_boxText h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+
+.pricingCard_box:hover .pricingCard_boxText h3 {
+    color: #FFF;
+}
+
+.pricingCard_boxText p {
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+}
+
+.pricingCard_box:hover .pricingCard_boxText p {
+    color: #FFF;
+}
+
+.pricingCard_boxCen ul {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.playBtn {
+    margin-right: 12px;
+    color: #97DAAD;
+}
+
+.pricingCard_boxCen ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 28px;
+    color: #282938ad;
+}
+
+.pricingCard_box:hover .pricingCard_boxCen ul li a {
+    color: #FFF;
+}
+
+.pricingCard_boxBm {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.pricingCard_boxBm a {
+    width: 160px;
+    height: 48px;
+    border-radius: 36px;
+    border: 1px solid rgb(244, 246, 252, 20%);
+    background: #282938;
+    text-align: center;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.pricingCard_box:hover .pricingCard_boxBm a {
+    background: #FCD980;
+    color: #1B1C2B;
+}
+
+@media (max-width:991px) {
+    #pricingCard {
+        margin: 60px 0px;
+    }
+    
+    .pricingCard_box {
+        margin-bottom: 24px;
+    }
+}

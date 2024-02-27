@@ -1,0 +1,127 @@
+#FAQ {
+    margin: 120px 0px;
+}
+
+.FAQ-left h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 41px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 62px;
+    color: #282938;
+}
+
+.FAQ-left h3 {
+    margin-top: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+}
+
+/* Accordion part  */
+
+.accordion-item {
+    border: none;
+    border-bottom: 0.5px solid #ECECF1;
+}
+
+.accordion-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+
+.accordion-button h4 {
+    margin-right: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #282938;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.accordion-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #282938;
+}
+
+.accordion-body {
+    padding: 10px 80px 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+}
+
+.accordion-button::after {
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+@media (max-width:991px) {
+    #FAQ {
+        margin: 60px 0px;
+    }
+
+    .FAQ-left {
+        margin-bottom: 36px;
+    }
+
+    .FAQ-left h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:767px) {
+    .FAQ-left {
+        text-align: center;
+    }
+    
+    .FAQ-left h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+@media (max-width:575px) {
+    .accordion-button h4 {
+        margin-right: 16px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .accordion-button {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .accordion-body {
+        padding: 10px 32px 20px;
+    }
+}

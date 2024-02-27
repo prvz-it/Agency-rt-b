@@ -1,0 +1,90 @@
+#blog {
+    margin-top: 120px;
+}
+
+.blog-head h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+}
+
+.blogCen img {
+    width: 100%;
+}
+
+.blogText {
+    margin-top: 40px;
+}
+
+.blogText h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #2829386b;
+}
+
+.blogText h3 {
+    margin: 16px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+}
+
+.blogText p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 32px;
+}
+
+.blogText a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #282938;
+}
+
+@media (max-width:991px) {
+    #blog {
+        margin-top: 60px;
+    }
+
+    .blog-head h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .blogCen {
+        margin-bottom: 24px;
+    }
+
+    .blogText {
+        margin-top: 24px;
+    }
+
+    .blogText h3 {
+        margin: 12px 0px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:767px) {
+    .blogText h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .blogText p {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,42 @@
+#featuresLogo {
+    margin: 80px 0px;
+}
+
+.featuresLogoInner_text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #282938;
+}
+
+.featuresLogoInner_text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #282938a0;
+}
+
+.featuresLogoInner img {
+    width: 85%;
+}
+
+@media (max-width:991px) {
+    .featuresLogoInner_text h2 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .featuresLogoInner_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width:767px) {
+    .featuresLogoInner {
+        margin-bottom: 12px;
+    }
+}

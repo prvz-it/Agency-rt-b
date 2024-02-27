@@ -1,0 +1,87 @@
+#blogHero {
+    margin: 120px 0px;
+    text-align: center;
+}
+
+.blogHero_top h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+
+.blogHero_top h5 {
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938b0;
+}
+
+.blogHero_top h6 {
+    margin-left: 12px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938b0;
+}
+
+.blogHero_top img {
+    margin: 32px 0px 48px;
+    width: 100%;
+}
+
+.blogHero_top p {
+    padding: 0px 140px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #282938;
+}
+
+.blogHero_top a {
+    margin-top: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #2405F2;
+}
+
+@media (max-width:991px) {
+    #blogHero {
+        margin: 60px 0px;
+    }
+
+    .blogHero_top h2 {
+        font-size: 36px;
+        line-height: 52px;
+    }
+
+    .blogHero_top p {
+        padding: 0px 68px;
+    }
+}
+
+@media (max-width:767px) {
+    .blogHero_top h2 {
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+    .blogHero_top p {
+        padding: 0px 34px;
+    }
+
+    .blogHero_top img {
+        margin: 24px 0px 32px;
+    }
+}

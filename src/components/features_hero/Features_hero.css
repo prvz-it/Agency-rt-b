@@ -1,0 +1,75 @@
+#featuresHero {
+    height: 90vh;
+    background: #1C1E53;
+}
+
+.featuresHero-main {
+    height: 90vh;
+}
+
+.featuresHero-left h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFF;
+}
+
+.featuresHero-left p {
+    margin: 24px 0px 36px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 28px;
+    color: #FFF;
+}
+
+.featuresHero-btn a {
+    width: 160px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 36px;
+    background: transparent;
+    text-align: center;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.featuresHero-btn a:hover {
+    background: #FCD980;
+    color: #1B1C2B;
+}
+
+.featuresHero-right img {
+    width: 100%;
+}
+
+@media (max-width:991px) {
+    #featuresHero {
+        height: 148vh;
+    }
+
+    .featuresHero-left {
+        text-align: center;
+        margin: 24px 0px;
+    }
+}
+
+@media (max-width:575px) {
+    #featuresHero {
+        height: 95vh;
+    }
+
+    .featuresHero-left h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .featuresHero-btn a {
+        width: 154px;
+    }
+}

@@ -1,0 +1,193 @@
+#contactHead {
+    margin: 120px 0px;
+}
+
+.contactHead_main {
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.contactHead_main h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: #282938;
+}
+
+.contactHead_main p {
+    margin-top: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* contactForm_in start */
+
+.contactForm_in {
+    padding: 48px 60px;
+    border-radius: 12px;
+    background: #F4F6FC;
+}
+
+.contactForm_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* contactForm_topLeft */
+
+.contactForm_topLeft h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000;
+}
+
+.contactForm_topLeft input {
+    width: 380px;
+    padding: 12px 20px;
+    margin: 10px 0px 24px;
+    border: 1px solid #0000001f;
+    border-radius: 8px;
+    background: #F4F6FC;
+}
+
+.contactForm_topLeft input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* contactForm_topRight */
+
+.contactForm_topRight h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000;
+}
+
+.contactForm_topRight input {
+    width: 380px;
+    padding: 12px 20px;
+    margin: 10px 0px 24px;
+    border: 1px solid #0000001f;
+    border-radius: 8px;
+    background: #F4F6FC;
+}
+
+.contactForm_topRight input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* contactForm_Mess */
+
+.contactForm_Mess h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000;
+}
+
+.contactForm_Mess input {
+    width: 805px;
+    padding: 12px 20px 80px;
+    margin: 10px 0px 24px;
+    border: 1px solid #0000001f;
+    border-radius: 8px;
+    background: #F4F6FC;
+}
+
+.contactForm_Mess input::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+.contactForm_btn a {
+    width: 220px;
+    height: 48px;
+    margin-top: 12px;
+    border-radius: 40px;
+    background: #282938;
+    text-align: center;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F4F6FC;
+}
+
+.contactForm_btn a:hover {
+    background: #FCD980;
+    color: #282938;
+}
+
+@media (max-width:991px) {
+    #contactHead {
+        margin: 60px 0px;
+    } 
+
+    .contactForm_topLeft input {
+        width: 276px;
+        padding: 12px 16px;
+    }
+
+    .contactForm_topRight input {
+        width: 276px;
+        padding: 12px 16px;
+    }
+
+    .contactForm_Mess input {
+        width: 576px;
+        padding: 12px 16px 80px;
+    }
+}
+
+@media (max-width:767px) {
+    .contactForm_in {
+        padding: 48px 36px;
+    }
+
+    .contactForm_topLeft input {
+        width: 210px;
+    }
+
+    .contactForm_topRight input {
+        width: 210px;
+    }
+
+    .contactForm_Mess input {
+        width: 444px;
+    }
+}
+
+@media (max-width:575px) {
+    .contactForm_topLeft input {
+        width: 136px;
+    }
+
+    .contactForm_topRight input {
+        width: 136px;
+    }
+
+    .contactForm_Mess input {
+        width: 290px;
+    }
+}

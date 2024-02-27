@@ -1,0 +1,297 @@
+#ourWork {
+    margin: 120px 0px;
+}
+
+.ourWorkTop {
+    margin-bottom: 60px;
+}
+
+.ourWorkTop-left h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #282938;
+}
+
+.ourWorkTop-right {
+    text-align: end;
+}
+
+.ourWorkTop-right a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.ourWorkCen-left {
+    position: relative;
+}
+
+.ourWorkCen-left img {
+    width: 100%;
+}
+
+.ourWorkCen-leftText {
+    width: 0%;
+    height: 100%;
+    background: #2829389c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+.ourWorkCen-left:hover .ourWorkCen-leftText {
+    width: 48%;
+    opacity: 1;
+}
+
+.ourWorkCen-leftTextInner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.ourWorkCen-leftTextInner h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+.ourWorkCen-leftTextInner a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #FCD980;
+}
+
+.ourWorkCen-rightTop {
+    position: relative;
+}
+
+.ourWorkCen-rightTop img {
+    width: 100%;
+}
+
+.ourWorkCen-rightTopText {
+    width: 100%;
+    height: 0%;
+    background: #2829389c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+.ourWorkCen-rightTop:hover .ourWorkCen-rightTopText {
+    height: 100%;
+    opacity: 1;
+}
+
+.ourWorkCen-rightTopTextInner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.ourWorkCen-rightTopTextInner h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.ourWorkCen-rightTopTextInner a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #FCD980;
+}
+
+.ourWorkCen-rightBtm {
+    margin-top: 24px;
+    position: relative;
+}
+
+.ourWorkCen-rightBtm img {
+    width: 100%;
+}
+
+.ourWorkCen-rightBtmText {
+    width: 100%;
+    height: 0%;
+    background: #2829389c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+.ourWorkCen-rightBtm:hover .ourWorkCen-rightBtmText {
+    height: 100%;
+    opacity: 1;
+}
+
+.ourWorkCen-rightBtmTextInner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.ourWorkCen-rightBtmTextInner h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+
+.ourWorkCen-rightBtmTextInner a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #FCD980;
+}
+
+@media (max-width: 991px) {
+    #ourWork {
+        margin: 60px 0px;
+    }
+
+    .ourWorkTop-left h2 {
+        font-size: 38px;
+        line-height: 30px;
+    }
+
+    .ourWorkCen-leftTextInner h3 {
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 84px;
+    }
+
+    .ourWorkCen-right {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    .ourWorkCen-rightTop {
+        margin-right: 8px;
+    }
+
+    .ourWorkCen-rightTopTextInner h3 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    .ourWorkCen-rightBtm {
+        margin: 0px 0px 0px 8px;
+    }
+}
+
+@media (max-width:767px) {
+    .ourWorkTop-left h2 {
+        font-size: 27px;
+    }
+
+    .ourWorkCen-leftTextInner {
+        top: 52%;
+        left: 7%;
+    }
+
+    .ourWorkCen-leftTextInner h3 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 48px;
+    }
+
+    .ourWorkCen-rightTopTextInner h3 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    .ourWorkCen-rightTopTextInner {
+        top: 45%;
+        left: 7%;
+    }
+
+    .ourWorkCen-rightBtmTextInner h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .ourWorkCen-rightBtmTextInner {
+        position: absolute;
+        top: 45%;
+        left: 7%;
+    }
+}
+
+@media (max-width:575px) {
+    .ourWorkTop-left h2 {
+        font-size: 18px;
+    }
+
+    .ourWorkCen-leftTextInner {
+        top: 30%;
+        left: 4%;
+    }
+
+    .ourWorkCen-rightTopTextInner {
+        top: 36%;
+        left: 5%;
+    }
+
+    .ourWorkCen-leftTextInner h3 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ourWorkCen-rightTopTextInner h3 {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .ourWorkCen-rightTopTextInner a {
+        font-size: 14px;
+    }
+
+    .ourWorkCen-rightBtmTextInner {
+        top: 36%;
+        left: 5%;
+    }
+
+    .ourWorkCen-rightBtmTextInner h3 {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .ourWorkCen-rightBtmTextInner a {
+        font-size: 14px;
+    }
+}

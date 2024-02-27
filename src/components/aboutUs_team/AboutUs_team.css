@@ -1,0 +1,103 @@
+#aboutUs_team {
+    padding: 120px 0px;
+    background: #F4F6FC;
+}
+
+.aboutUs_teamTop{
+    margin-bottom: 48px;
+}
+
+.aboutUs_teamTop h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+    color: #282938;
+}
+
+/* aboutUs_teamCard */
+
+.aboutUs_teamCard {
+    padding: 48px 46px;
+    background: #FFF;
+}
+
+.aboutUs_teamCard_I {
+    position: relative;
+}
+
+.aboutUs_teamCard_I img {
+    width: 100%;
+}
+
+.aboutUs_teamCardOv {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(83, 57, 250, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.aboutUs_teamCard:hover .aboutUs_teamCardOv {
+    opacity: 1;
+}
+
+.aboutUs_teamCardIcon {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aboutUs_teamCardOv ul {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUs_teamCardOv ul li a {
+    margin: 0px 8px;
+    color: #FFF;
+}
+
+.aboutUs_teamCard_text {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.aboutUs_teamCard_text h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 32px;
+    color: #1D2130;
+}
+
+.aboutUs_teamCard_text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1d21309e;
+}
+
+@media (max-width:991px) {
+    #aboutUs_team {
+        padding: 60px 0px;
+    }
+
+    .aboutUs_teamTop {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .aboutUs_teamCard {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
