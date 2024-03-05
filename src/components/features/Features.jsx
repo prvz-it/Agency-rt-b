@@ -5,6 +5,7 @@ import featuresIcon3 from '../../assets/features-3.png';
 import featuresIcon4 from '../../assets/features-4.png';
 import featuresIcon5 from '../../assets/features-5.png';
 import featuresIcon6 from '../../assets/features-6.png';
+import Features_reusable from '../reusable/Features_reusable';
 import './Features.css';
 
 const Features = () => {
@@ -21,60 +22,12 @@ const Features = () => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon1} alt="features-1" />
-                        <div className="featuresBox-text">
-                            <h3>Uses Client First</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon2} alt="features-2" />
-                        <div className="featuresBox-text">
-                            <h3>Two Free Revision Round</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon3} alt="features-3" />
-                        <div className="featuresBox-text">
-                            <h3>Template Customization</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon4} alt="features-4" />
-                        <div className="featuresBox-text">
-                            <h3>24/7 Support</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon5} alt="features-5" />
-                        <div className="featuresBox-text">
-                            <h3>Quick Delivery</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
-                <Col lg={4} md={6} sm={6}>
-                    <div className="featuresBox">
-                        <img src={featuresIcon6} alt="features-6" />
-                        <div className="featuresBox-text">
-                            <h3>Hands-on approach</h3>
-                            <p>For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn.</p>
-                        </div>
-                    </div>
-                </Col>
+                <Features_reusable featuresIcon={<img src={featuresIcon1} alt="features-1" />} title="Uses Client First" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
+                <Features_reusable featuresIcon={<img src={featuresIcon2} alt="features-2" />} title="Two Free Revision Round" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
+                <Features_reusable featuresIcon={<img src={featuresIcon3} alt="features-3" />} title="Template Customization" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
+                <Features_reusable featuresIcon={<img src={featuresIcon4} alt="features-4" />} title="24/7 Support" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
+                <Features_reusable featuresIcon={<img src={featuresIcon5} alt="features-5" />} title="Quick Delivery" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
+                <Features_reusable featuresIcon={<img src={featuresIcon6} alt="features-6" />} title="Hands-on approach" pgh="For the time being, limit your strategy and attention to a single platform. You'll be able to extend your reach to new platforms as you develop & learn."/>
             </Row>
         </Container>
       </section>
